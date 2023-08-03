@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
     <script src="script.js"></script>
-    <style src="style.css"></style>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
-        <div> 
-            <img src="box.png" id="1.1" onclick="change()" />
-            <img src="box.png" id="1.2" />
-            <img src="box.png" id="1.3" />
+        <div id="box">
+            <img id="11" onclick="change(event, '11')" src="box.png" />
+            <img id="12" onclick="change(event, '12')" src="box.png" />
+            <img id="13" onclick="change(event, '13')" src="box.png" />
             <br>
-            <img src="box.png" id="2.1" />
-            <img src="box.png" id="2.2" />
-            <img src="box.png" id="2.3" />
+           
+            <img id="21" onclick="change(event, '21')" src="box.png" />
+            <img id="22" onclick="change(event, '22')" src="box.png" />
+            <img id="23" onclick="change(event, '23')" src="box.png" />
             <br>
-            <img src="box.png" id="3.1" />
-            <img src="box.png" id="3.2" />
-            <img src="box.png" id="3.3" />
-        </div>
             
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>     
+            <img id="31" onclick="change(event, '31')" src="box.png" />
+            <img id="32" onclick="change(event, '32')" src="box.png" />
+            <img id="33" onclick="change(event, '33')" src="box.png" />
+        </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>    
+    </script>
     </body>
 </html>
